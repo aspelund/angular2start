@@ -38,7 +38,8 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 MessageForm = __decorate([
                     core_1.Component({
                         selector: 'message-form',
-                        template: "<div>\n\t<label>Text:</label><input type='text' [(ngModel)]=\"text\"/><br/>\n\t<label>Sender:</label><input type='text' [(ngModel)]=\"sender\"/><br/>\n\t<button (click)=\"onClick()\">Send</button>\n\t</div>"
+                        template: "<form>\n\t\t<label>Text:</label>\n\t\t<input type='text' [(ngModel)]=\"text\"/><br/>\n\t\n\t\t<label>Sender:</label>\n\t\t<input type='text' [(ngModel)]=\"sender\"/><br/>\n\t\t\n\t\t<button (click)=\"onClick()\">Send</button>\n\t</form>",
+                        styles: ["\n\t\tform {\t\t\t\n\t\t\tmargin:10px;\n\t\t\tbackground:#f0f0f0;\n\t\t\tdisplay:inline-block;\n\t\t\twidth:400px;\n\t\t\tpadding:30px;\n\t\t\tborder-radius:10px;\n\t\t}\n\t\tlabel {\n\t\t\tdisplay:block;\n\t\t\tmargin:5px;\n\t\t}\n\t\tbutton {\n\t\t\tmargin-top:10px;\n\t\t\tpadding:5px;\n\t\t}\n\t"]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], MessageForm);

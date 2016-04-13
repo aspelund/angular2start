@@ -27,7 +27,6 @@ System.register(['angular2/core', './message_form'], function(exports_1, context
                     this.messages = [];
                 }
                 AppComponent.prototype.sendMessage = function (message) {
-                    console.log(message);
                     this.messages.unshift(message);
                 };
                 AppComponent = __decorate([
