@@ -1,5 +1,8 @@
 # angular2ws
 
+## Installation
+`npm install` and then `npm start`. That's it.
+
 ## Exercise
 Create a filter component in the form of a dropdown. The dropdown should be populated with the names of people who has sent messages.
 
